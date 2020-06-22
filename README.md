@@ -1,3 +1,2 @@
 # kakao_clone
- 
- Kakao Desktop App Clone
+ Kakao__cloning version 2

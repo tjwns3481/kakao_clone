@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Box Model</title>
+        <style>
+            body,html{
+                padding: 0;
+                margin: 0;
+                background-color: #7fff00;
+                height: 100%;
+            }
+            .box{
+                background-color: darkgoldenrod;
+                width: 50%;
+                height: 50%;
+               padding: 20px;
+            }
+            .inside-box{
+                background-color: darkmagenta;
+                width: 50%;
+                height: 50%;
+                padding: 20px;        
+                border: 5px solid red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="inside-box"></div>
+        </div>
+
+    </body>
+</html>
